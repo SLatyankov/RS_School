@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    max-width: 1170px;
+    margin:0 auto;
+    background-color: #F7F7F7;
+    font-size: 18px;
+}
+
+header {
+    padding: 7px 15px;
+
+}
+
+.address {
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;
+    font-size:25px;
+    padding: 5px 0 0 20px;
+    font-weight:bolder;
+}
+ 
+
+header a:hover {
+    color: #000000;
+}
+
+.warning{
+    text-align: center;
+    float:left;
+    max-width: 500px;
+    background-color: #F57921;
+    font-size: 20px;
+    font-weight:bolder;
+    padding: 10px 15px;
+    border: 5px solid #E90017;
+    border-radius: 3%;
+}
+
+.think {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 15px 20px 15px 20px;
+    font-size: 25px;
+}
+.nameplate{
+    max-width: 1070px;
+    padding: 0px 30px;
+}
+footer{
+    padding: 7px 15px;
+}
+.header__anchor::before{
+    content: "\ea3e";
+    font-family: 'icomoon';
+    color: #020507ef
+}
+.warning__p{
+    font-size: 50px;
+    color: #E90017;
+    margin: 10px;
+}
+.warning__p::before {
+    content: "\ea07";
+    font-family: 'icomoon';
+    font-size: 50px;
+    padding: 10px 30px 5px 10px;
+    color: #E90017;
+}
+.motivation{
+        text-align: center;
+        float: right;
+        max-width: 500px;
+        background-color: rgb(244, 248, 17);
+        font-size: 20px;
+        font-weight:bolder;
+        padding: 10px 15px;
+        border: 5px solid #E90017;
+        border-radius: 3%;
+}
+.nice{
+    max-width: 144px;
+    float:left;
+}
+nav{
+    display: table;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.div_logo {
+    float:left;
+    width: 350px;
+    padding: 0 50px;
+}
+.logo_img {
+    max-width: 250px;
+}
+.div_nav{
+    float:left;
+    max-width: 720px;
+}
+nav ul{
+    list-style: none;
+}
+.main__div {
+    padding: 40px 0 30px 0;
+    font-size: 18px;
+}
+.main__div a {
+    text-decoration: none;
+    font-weight:bolder;
+    padding: 0 15px;
+}
+.a__right::before {
+    content: "\ea3c";
+    font-family: 'icomoon';
+    color: black;
+    font-size: 14px;
+    padding: 0 10px;
+}
+footer{
+    padding: 0px 15px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+}
+.header__left::before {
+    content: "\ea40";
+    font-family: 'icomoon';
+    color: black;
+    padding: 0 0 0 15px;
+}
+.div__mini_nav{
+        display: table;
+        width: 100%;
+        padding: 30px 15px 5px 15px;
+}
+.comment{
+    font-size: 16px;
+    color: rgb(104, 104, 104);
+    margin: 0px;
+}
+textarea {
+    width: 1170px;
+    height: 400px;
+}
